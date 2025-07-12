@@ -1,0 +1,58 @@
+{
+    "bates_stamping": {
+        "font_size": 30,
+        "margin": 20,
+        "text_color_light": [255, 255, 255],
+        "text_color_dark": [0, 0, 0],
+        "contrast_threshold": 128,
+        "add_border": false,
+        "border_color": [255, 255, 255],
+        "border_width": 2,
+        "shadow": false,
+        "shadow_offset": [2, 2],
+        "shadow_color": [0, 0, 0],
+        "supported_formats": ["jpg", "jpeg", "tiff", "tif", "png", "bmp"],
+        "quality": 95,
+        "dpi": 200
+    },
+    "font_paths": {
+        "windows": [
+            "C:\\Windows\\Fonts\\arial.ttf",
+            "C:\\Windows\\Fonts\\calibri.ttf",
+            "C:\\Windows\\Fonts\\verdana.ttf",
+            "C:\\Windows\\Fonts\\times.ttf"
+        ],
+        "linux": [
+            "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+            "/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf",
+            "/usr/share/fonts/truetype/ubuntu/Ubuntu-R.ttf",
+            "/usr/share/fonts/truetype/liberation/LiberationSerif-Regular.ttf"
+        ],
+        "macos": [
+            "/System/Library/Fonts/Arial.ttf",
+            "/System/Library/Fonts/Helvetica.ttc",
+            "/Library/Fonts/Arial.ttf"
+        ],
+        "custom": [
+            "fonts/arial.ttf",
+            "fonts/calibri.ttf",
+            "fonts/DejaVuSans.ttf",
+            "Supporting_Files/FONTS/08634_ClarendonBT.ttf"
+        ]
+    },
+    "loadfile_settings": {
+        "delimiter": "0x14",
+        "wrapper": "0xFE",
+        "encoding": "utf-8",
+        "required_fields": [
+            "BegBates", "EndBates", "NativeLocation", "TextLocation", 
+            "Filename", "FileExtension", "HashValue"
+        ]
+    },
+    "processing_settings": {
+        "timeout": 500,
+        "pdf_dpi": 200,
+        "image_compression": 9,
+        "memory_cleanup": true
+    }
+} 
