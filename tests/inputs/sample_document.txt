@@ -1,0 +1,10 @@
+Sample Text Document
+
+This is a test text file for LoadFile Creator testing.
+
+Created: 2024-01-15
+Author: Test User
+Subject: Test Document
+
+This document contains plain text content that should be extracted
+and included in the Concordance loadfile.
