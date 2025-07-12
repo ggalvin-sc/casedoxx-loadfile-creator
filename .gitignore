@@ -1,0 +1,132 @@
+# Casedoxx LoadFile Creator - Git Ignore File
+# =============================================
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+coverage.xml
+*.cover
+.hypothesis/
+
+# Temporary files
+*.tmp
+*.temp
+temp/
+tmp/
+uploads/
+outputs/
+review_data/
+test_samples/
+
+# Log files
+*.log
+logs/
+
+# Configuration files with sensitive data
+.env
+config.ini
+secrets.json
+
+# Large files and data
+*.pdf
+*.docx
+*.xlsx
+*.jpg
+*.jpeg
+*.png
+*.tif
+*.tiff
+*.eml
+*.zip
+*.rar
+*.7z
+
+# Tika server
+tika-server-standard-*.jar
+
+# Poppler
+poppler-*/
+
+# Font files (if large)
+*.ttf
+*.otf
+*.woff
+*.woff2
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+*.lnk
+
+# Project specific
+# Keep these directories but ignore their contents
+!uploads/.gitkeep
+!outputs/.gitkeep
+!review_data/.gitkeep
+!test_samples/.gitkeep
+
+# Allow specific test files
+!tests/inputs/sample_*
+!tests/expected/sample_*
