@@ -1,0 +1,31 @@
+# Review Workflow Requirements
+# ===========================
+
+# Core dependencies
+streamlit>=1.28.0
+pandas>=2.0.0
+numpy>=1.24.0
+
+# File processing and metadata extraction
+tika>=2.6.0
+python-magic-bin>=0.4.14
+
+# PDF processing
+PyPDF2>=3.0.0
+pdf2image>=1.16.0
+
+# Image processing
+Pillow>=10.0.0
+
+# Office document processing
+python-docx>=0.8.11
+openpyxl>=3.1.0
+
+# Email processing
+email-validator>=2.0.0
+
+# Data validation and integrity
+pathlib
+
+# Additional utilities
+python-dateutil>=2.8.0 
